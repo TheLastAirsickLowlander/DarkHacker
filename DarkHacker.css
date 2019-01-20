@@ -1,0 +1,90 @@
+body{
+    background-color: #262626
+}
+
+table {
+    background-color: #262626;
+    width : 100%
+}
+
+
+/* Row Formatting, works on all front page  */
+tr.athing > td{
+    padding-top: .7rem;
+}
+tr.athing > td.title{
+    font-size: .9rem;
+ 
+}
+tr > td.subtext {
+font-size: .7rem;
+}
+
+tr.athing > td > a {
+    color:whitesmoke
+}
+tr.athing > td > a:visited {
+    color:#7EA5BB
+}
+
+
+/* Top Bar */
+span.pagetop b.hnname a {
+    font-size: 1.1rem;
+    color: #FF6917;
+}
+span.pagetop a:visited {
+    font-size: 1.1rem;
+    color: #FF6917;
+}
+span.pagetop > a{
+    color:#B9B9B9
+}
+span.pagetop > a:visited{
+    color:#7EA5BB
+}
+a:link { color: #949494}
+#me {
+    color: #FF6917;
+}
+/* Comment page comment box */
+
+td form textarea{
+    background-color:#2E2E2F;
+    Color:whitesmoke;
+}
+
+/* Comment Page in paragraph links */
+.c00 p a:link {
+    color:whitesmoke;
+}
+
+.c00 p a:visited {
+    color:#7EA5BB;
+}
+
+/* Comment page replies */
+div.comment .c00 {
+ color: #B9B9B9;
+ font-size: .8rem;
+}
+
+div.reply u > a {
+    font-size: .8rem;
+}
+div.reply u > a:link {
+    color:whitesmoke;
+}
+
+div.reply u > a:visited {
+    color:#7EA5BB
+}
+
+/* Bottom Links */
+
+span.yclinks > a {
+    color:#B9B9B9
+}
+span.yclinks > a:visited {
+    color:#7EA5BB
+}
