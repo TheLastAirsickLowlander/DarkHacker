@@ -1,93 +1,119 @@
-body{
-    background-color: #262626
+body {
+  background-color: #262626;
 }
 
 table {
-    background-color: #262626;
-    width : 100%
+  background-color: #262626;
+  width: 100%;
 }
-
 
 /* Row Formatting, works on all front page  */
-tr.athing > td{
-    padding-top: .7rem;
+tr.athing > td {
+  padding-top: 0.7rem;
 }
-tr.athing > td.title{
-    font-size: .9rem;
- 
+tr.athing > td.title {
+  font-size: 0.9rem;
 }
 tr > td.subtext {
-font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 tr.athing > td > a {
-    color:whitesmoke
+  color: whitesmoke;
 }
 tr.athing > td > a:visited {
-    color:#7EA5BB
+  color: #7ea5bb;
 }
-
 
 /* Top Bar */
 span.pagetop b.hnname a {
-    font-size: 1.1rem;
-    color: #FF6917;
+  font-size: 1.1rem;
+  color: #ff6917;
 }
 span.pagetop a:visited {
-    font-size: 1.1rem;
-    color: #FF6917;
+  font-size: 1.1rem;
+  color: #ff6917;
 }
-span.pagetop > a{
-    color:#B9B9B9
+span.pagetop > a {
+  color: #b9b9b9;
 }
-span.pagetop > a:visited{
-    color:#7EA5BB
+span.pagetop > a:visited {
+  color: #7ea5bb;
 }
-a:link { color: #949494}
+a:link {
+  color: #949494;
+}
 #me {
-    color: #FF6917;
+  color: #ff6917;
 }
 /* Comment page comment box */
 
-td form textarea{
-    background-color:#2E2E2F;
-    Color:whitesmoke;
+td form textarea {
+  background-color: #2e2e2f;
+  color: whitesmoke;
 }
 
 /* Comment Page in paragraph links */
 .c00 p a:link {
-    color:whitesmoke;
+  color: whitesmoke;
 }
 
 .c00 p a:visited {
-    color:#7EA5BB;
+  color: #7ea5bb;
 }
 
 /* Comment page replies */
 div.comment .c00 {
- color: #B9B9B9;
- font-size: .8rem;
+  color: #b9b9b9;
+  font-size: 0.8rem;
 }
 
 div.reply u > a {
-    font-size: .8rem;
+  font-size: 0.8rem;
 }
 div.reply u > a:link {
-    color:whitesmoke;
+  color: whitesmoke;
 }
 
 div.reply u > a:visited {
-    color:#7EA5BB
+  color: #7ea5bb;
 }
 
 td[class*="nosee votelinks"] {
-    position: absolute;
+  position: absolute;
 }
-/* Bottom Links */
 
+/* Bottom Links */
 span.yclinks > a {
-    color:#B9B9B9
+  color: #b9b9b9;
 }
 span.yclinks > a:visited {
-    color:#7EA5BB
+  color: #7ea5bb;
+}
+
+/* Profile page */
+
+input,
+select {
+  border-color: #a7a7a7;
+  border-width: 0.05rem;
+  background-color: #2e2e2f;
+  padding: 0.4rem;
+  color: whitesmoke;
+}
+
+tr> td > a[href^="front?"] {
+    color: whitesmoke;
+  }
+
+  tr> td > a[href^="front?"]:visited {
+    color: #7ea5bb;
+  }
+
+td > a > u{
+  color: whitesmoke;
+}
+
+td > a:visited  > u {
+  color: #7ea5bb;
 }
