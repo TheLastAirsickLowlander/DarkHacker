@@ -1,6 +1,6 @@
 {
     "name": "Dark Hacker News",
-    "version": "0.1",
+    "version": "0.1.1",
     "description": "Dark Mode For Hacker News",
     "permissions": [
         "https://news.ycombinator.com/*"
