@@ -102,18 +102,18 @@ select {
   color: whitesmoke;
 }
 
-tr> td > a[href^="front?"] {
-    color: whitesmoke;
-  }
-
-  tr> td > a[href^="front?"]:visited {
-    color: #7ea5bb;
-  }
-
-td > a > u{
+tr > td > a[href^="front?"] {
   color: whitesmoke;
 }
 
-td > a:visited  > u {
+tr > td > a[href^="front?"]:visited {
+  color: #7ea5bb;
+}
+
+td > a > u {
+  color: whitesmoke;
+}
+
+td > a:visited > u {
   color: #7ea5bb;
 }
