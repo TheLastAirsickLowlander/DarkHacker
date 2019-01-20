@@ -80,6 +80,9 @@ div.reply u > a:visited {
     color:#7EA5BB
 }
 
+td[class*="nosee votelinks"] {
+    position: absolute;
+}
 /* Bottom Links */
 
 span.yclinks > a {
