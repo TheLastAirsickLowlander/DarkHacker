@@ -54,6 +54,14 @@ td form textarea {
 }
 
 /* Comment Page in paragraph links */
+
+span.c00 a:link {
+  color: whitesmoke;
+}
+span.c00 a:visited {
+  color: #7ea5bb;
+}
+
 .c00 p a:link {
   color: whitesmoke;
 }
