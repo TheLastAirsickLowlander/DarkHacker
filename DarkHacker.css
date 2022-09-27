@@ -124,3 +124,8 @@ td > a > u {
 td > a:visited > u {
   color: #7ea5bb;
 }
+
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
