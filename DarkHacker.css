@@ -125,7 +125,7 @@ td > a:visited > u {
   color: #7ea5bb;
 }
 
-a:link {
-    color: #ffffff;
+.titleline > a:link {
+    color: whitesmoke;
     text-decoration: none;
 }
